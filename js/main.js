@@ -24,7 +24,7 @@
 
       var filters = $('#filters');
       if (filters.length && !filters.hasClass('no-fix')) {
-        if ($(window).scrollTop() >= $('.page-title:first').height() + 30) {
+        if ($(window).scrollTop() >= $('.page-title:first').height() + 50) {
           filters.addClass('fixed');
         } else {
           filters.removeClass('fixed');
