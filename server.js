@@ -12,6 +12,8 @@ app.use(express.static(__dirname + '/'));
 
 app.use(express.static('michaelserna'));
 
-app.listen(2020, function () {
+var port = process.env.PORT || 2020;
+
+app.listen(port, function () {
   console.log('Example app listening on port 2020!');
 });
